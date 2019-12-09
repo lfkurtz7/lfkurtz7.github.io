@@ -1,103 +1,354 @@
-<!DOCTYPE html>
-
-<html lang="en-us">
-
+<!DOCTYPE HTML>
+<html lang="en">
 <head>
-    <link rel="stylesheet" type="style/css" href="assets/css/style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    
-    <meta charset="utf-8">
-    <title>Welcome to my portfolio</title>
-
-
+	<title>CV - Boxed</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	
+	
+	<!-- Font -->
+	
+	<link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700%7CAllura" rel="stylesheet">
+	
+	<!-- Stylesheets -->
+	
+	<link href="common-css/bootstrap.css" rel="stylesheet">
+	
+	<link href="common-css/ionicons.css" rel="stylesheet">
+	
+	<link href="common-css/fluidbox.min.css" rel="stylesheet">
+	
+	<link href="01-cv-portfolio/css/styles.css" rel="stylesheet">
+	
+	<link href="01-cv-portfolio/css/responsive.css" rel="stylesheet">
+	
 </head>
-
-
 <body>
-    
+	
+	<section class="intro-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-1 col-lg-2"></div>
+				<div class="col-md-10 col-lg-8">
+					<div class="intro">
+						<div class="profile-img"><img src="images/me.png" alt=""></div>
+						<h2><b>Leah Kurtz</b></h2>
+						<h4 class="font-yellow">Full Stack Developer</h4>
+						<ul class="information margin-tb-30">
+							<li><b>Phone : </b>215-880-7984</li>
+							<li><b>EMAIL : </b>Lfkurtz7@gmail.com</li>
+							<a class="downlad-btn" href="lfkres.pdf">Download CV</a>
+						</ul>
+						<ul class="social-icons">
+							<li><a href="https://www.linkedin.com/in/leah-kurtz-84866911a/"><i class="ion-social-linkedin"></i></a></li>
+							<li><a href="https://github.com/lfkurtz7"><i class="ion-social-github"></i></a></li>
+							
+						</ul>
+					</div><!-- intro -->
+				</div><!-- col-sm-8 -->
+			</div><!-- row -->
+		</div><!-- container -->
+	</section><!-- intro-section -->
 
-    <h1 class="text-center">Leah Kurtz</h1>
+	<section class="portfolio-section section">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="heading">
+						<h3><b>Portfolio</b></h3>
+						<h6 class="font-lite-black"><b>MY WORK</b></h6>
+					</div>
+				</div><!-- col-sm-4 -->
+				<div class="col-sm-8">
+					<!-- <div class="portfolioFilter clearfix margin-b-80">
+						<a href="#" data-filter="*" class="current"><b>ALL</b></a>
+						<a href="#" data-filter=".web-design"><b>WEB DESIGN</b></a>
+						<a href="#" data-filter=".branding"><b>BRANDING</b></a>
+						<a href="#" data-filter=".graphic-design"><b>GRAPHIC DESIGN</b></a> -->
+					</div><!-- portfolioFilter -->
+				</div><!-- col-sm-8 -->
+			</div><!-- row -->
+		</div><!-- container -->
+		
+		<div class="portfolioContainer">
+				<div class="row">
+						<div class="col">
+		
+							<div class="card" style="width: 22rem;">
+								<img src="images/game.jpg" class="card-img-top" alt="Word Game">
+								<div class="card-body">
+									<h5 class="card-title">Psychic Game</h5>
+									<p class="card-text">A letter guessing game created with Javascript.</p>
+									<a href="https://lfkurtz7.github.io/Psychic-Game/" class="btn btn-primary">View Project</a>
+								</div>
+							</div>
+						</div>
+		
+						<div class="col">
+		
+							<div class="card" style="width: 22rem;">
+								<img src="images/lightbulb.jpg" class="card-img-top" alt="Crystal Collector">
+								<div class="card-body">
+									<h5 class="card-title">Crystal Collector</h5>
+									<p class="card-text">A stylish game I created using jQuery, Javascript, and CSS</p>
+									<a href="https://lfkurtz7.github.io/unit-4-game/." class="btn btn-primary">View Project</a>
+								</div>
+							</div>
+						</div>
+		
+						<div class="col">
+		
+							<div class="card" style="width: 22rem;">
+								<img src="images/keyboard.jpg" class="card-img-top" alt="RPG Game">
+								<div class="card-body">
+									<h5 class="card-title">Trivia Game</h5>
+									<p class="card-text">A Geography themed trivia game I created using jQuery events,
+										Javascript, and CSS.</p>
+									<a href="https://lfkurtz7.github.io/TriviaGame/" class="btn btn-primary">View Project</a>
+								</div>
+							</div>
+						</div>
+		
+		
+						<div class="col">
+		
+							<div class="card" style="width: 22rem;">
+								<iframe src="images/giphy2.gif" width="350" height="230.66" frameBorder="0"
+									class="giphy-embed" allowFullScreen></iframe>
+								<a href="https://giphy.com/gifs/art-graphics-tech-BFNBvX46pD3oc"></a>
+		
+								<div class="card-body">
+									<h5 class="card-title">Giphy API</h5>
+									<p class="card-text">A GIF searching tool using the GIPHY API</p>
+									<a href="https://lfkurtz7.github.io/Giphy-API/" class="btn btn-primary">View Project</a>
+								</div>
+							</div>
+						</div>
+		
+						<div class="col">
+		
+							<div class="card" style="width: 22rem;">
+								<img src="images/apps.jpg" class="card-img-top" alt="Train Scheduler">
+								<div class="card-body">
+									<h5 class="card-title">Train Scheduler</h5>
+									<p class="card-text">This app allows users to log train times and calculate when the next
+										train will arrive.</p>
+									<a href="https://lfkurtz7.github.io/train-schedule-firebase/" class="btn btn-primary">View
+										Project</a>
+								</div>
+							</div>
+						</div>
+		
+						<div class="col">
+		
+							<div class="card" style="width: 22rem;">
+								<img src="images/giphy.gif" class="card-img-top" alt="Bamazon">
+								<div class="card-body">
+									<h5 class="card-title">Bamazon App</h5>
+									<p class="card-text">Bamazon is a CLI app that uses mySQL and node.js to populate and update items in a database</p>
+									<a href="https://drive.google.com/file/d/10oJ1PRGJ3TigLlLmTj79dj2GJWjvt_Fc/view" class="btn btn-primary">View
+										Project</a>
+								</div>
+							</div>
+						</div>
+		
+		
+						<div class="col">
+		
+								<div class="card" style="width: 22rem;">
+									<img src="images/dino-reichmuth-A5rCN8626Ck-unsplash.jpg" class="card-img-top" alt="Need A Rec">
+									<div class="card-body">
+										<h5 class="card-title">Need A Rec</h5>
+										<p class="card-text">Need A Rec is a collabritive project designed to simplify travel planning. The application is a search engine and mapping tool, built using Javascript, jQuery, CSS, and open source API's.</p>
+										<a href="https://sahasra101.github.io/Project1/" class="btn btn-primary">View
+											Project</a>
+									</div>
+								</div>
+							</div>
+							<div class="col">
+		
+								<div class="card" style="width: 22rem;">
+									<img src="images/friend.png" class="card-img-top" alt="Need A Rec">
+									<div class="card-body">
+										<h5 class="card-title">Friend Finder</h5>
+										<p class="card-text">Friend Finder is a compatibility-based application -- basically a dating app. This full-stack site will take in results from your users' surveys, then compare their answers with those from other users. The app will then display the name and picture of the user with the best overall match.</p>
+										<a href="https://young-mesa-38218.herokuapp.com/" class="btn btn-primary">View
+											Project</a>
+									</div>
+								</div>
+							</div>
 
-    <div class="header">
-        <header>
 
-            <div class="topnav">
-                <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-                    
+		
+		
+		</div><!-- portfolioContainer -->
+		
+	</section><!-- portfolio-section -->
 
-
-                    <a class="nav-item nav-link active" href="index.html">About <span
-                            class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-                    <a class="nav-item nav-link" href="contact.html">Contact</a>
-            </div>
-    </div>
-    </nav>
-
-    </div>
-    </header>
-    </div>
-
-
-
-    <div class="container">
-
-        <section id="main bio">
-
-            <h2>About Me</h2>
-            <hr>
-
-            <div class="container">
-            
-                <div class="row">
-                    <div class="col-md-6">
-                        <p id="paragraph1">Hi, I'm Leah! I am a 23 year old greater Philadelphia area native who
-                            recently graduated
-                            from Penn State. I have a Bachelor's degree in Media Studies, and have a strong passion for
+	<style>
+		.card-body {
+			margin: 20px;
+			padding: 20px;
+		}
+	
+	</style>
+	
+	
+	<section class="about-section section">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="heading">
+						<h3><b>About me</b></h3>
+						<h6 class="font-lite-black"><b>PROFESSIONAL PATH</b></h6>
+					</div>
+				</div><!-- col-sm-4 -->
+				<div class="col-sm-8">
+					<p class="margin-b-50">Hi, I'm Leah! I am a 23 year old greater Philadelphia area native who
+                            recently graduated from Penn State. I have a Bachelor's degree in Media Studies, and have a strong passion for
                             Media Effects. Throughout my communications studies, I found myself drawn to computer science, as much of my research focused on human-computer interaction. This leads me to where I am now: University of Pennsylvania LPS Coding Bootcamp. In the past month, I have 
                             learned and worked with HTML, CSS, Javascript, jQuery, API's, Moment.js, Firebase, and Node.
-                            I showcase my knowledge of these languages and programs on my portfolio page!       
                             </p>
+					
+					
+							</div><!-- radial-prog-area-->
+						</div><!-- col-sm-6-->
+					
+					</div><!-- row -->
+				</div><!-- col-sm-8 -->
+			</div><!-- row -->
+		</div><!-- container -->
+	</section><!-- about-section -->
+	
+	<!-- <section class="experience-section section">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="heading">
+						<h3><b>Work Experience</b></h3>
+						<h6 class="font-lite-black"><b>PREVIOUS JOBS</b></h6>
+					</div>
+				</div><!-- col-sm-4 -->
+				<!-- <div class="col-sm-8">
+				
+					<div class="experience margin-b-50">
+						<h4><b>JUNIOR PROJECT MANAGER</b></h4>
+						<h5 class="font-yellow"><b>DESIGN STUDIO</b></h5>
+						<h6 class="margin-t-10">MARCH 2015 - PRESENT</h6>
+						<p class="font-semi-white margin-tb-30">Duis non volutpat arcu, eu mollis tellus. Sed finibus aliquam neque sit amet sodales. 
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla maximus pellentes que velit, 
+							quis consequat nulla effi citur at. Maecenas sed massa tristique.Duis non volutpat arcu, 
+							eu mollis tellus. Sed finibus aliquam neque sit amet sodales. </p>
+						<ul class="list margin-b-30">
+							<li>Duis non volutpat arcu, eu mollis tellus.</li>
+							<li>Quis consequat nulla effi citur at.</li>
+							<li>Sed finibus aliquam neque sit.</li>
+						</ul>
+					</div><!-- experience -->
+					
+					<!-- <div class="experience margin-b-50">
+						<h4><b>WEB MASTER/WEB DEVELOPER</b></h4>
+						<h5 class="font-yellow"><b>DESIGN & WEB STUDIO</b></h5>
+						<h6 class="margin-t-10">APRIL 2014 - FEBRUARY 2015</h6>
+						<p class="font-semi-white margin-tb-30">Duis non volutpat arcu, eu mollis tellus. Sed finibus aliquam neque sit amet sodales. 
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla maximus pellentes que velit, 
+							quis consequat nulla effi citur at. Maecenas sed massa tristique.Duis non volutpat arcu, 
+							eu mollis tellus. Sed finibus aliquam neque sit amet sodales. </p>
+						<ul class="list margin-b-30">
+							<li>Duis non volutpat arcu, eu mollis tellus.</li>
+							<li>Quis consequat nulla effi citur at.</li>
+							<li>Sed finibus aliquam neque sit.</li>
+						</ul> -->
+					</div><!-- experience -->
+					
+				</div><!-- col-sm-8 -->
+			</div><!-- row -->
+		</div><!-- container -->
+		
+	</section><!-- experience-section -->
+	
+	<!-- <section class="education-section section">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<div class="heading">
+						<h3><b>Education</b></h3>
+						<h6 class="font-lite-black"><b>ACADEMIC CAREER</b></h6>
+					</div>
+				</div><!-- col-sm-4 -->
+				<!-- <div class="col-sm-8">
+					<div class="education-wrapper">
+						<div class="education margin-b-50">
+							<h4><b>MASTER DEGREE IN SCIENCE</b></h4>
+							<h5 class="font-yellow"><b>UCLA - SCIENCE AND ENGINEERING</b></h5>
+							<h6 class="font-lite-black margin-t-10">GRADUATED IN MAY 2010(2 YEARS)</h6>
+							<p class="margin-tb-30">Duis non volutpat arcu, eu mollis tellus. Sed finibus aliquam neque sit amet sodales. 
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla maximus pellentes que velit, 
+							quis consequat nulla effi citur at. Maecenas sed massa tristique.Duis non volutpat arcu, 
+							eu mollis tellus. Sed finibus aliquam neque sit amet sodales. </p>
+						</div><!-- education -->
+						
+						<!-- <div class="education margin-b-50">
+							<h4><b>COURSE ON COMPUTER SCIENCE</b></h4>
+							<h5 class="font-yellow"><b>NEW YORK PUBLIC UNIVERSITY</b></h5>
+							<h6 class="font-lite-black margin-t-10">GRADUATED IN MAY 2009(6 MONTHS)</h6>
+							<p class="margin-tb-30">Duis non volutpat arcu, eu mollis tellus. Sed finibus aliquam neque sit amet sodales. 
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla maximus pellentes que velit, 
+							quis consequat nulla effi citur at. Maecenas sed massa tristique.Duis non volutpat arcu, 
+							eu mollis tellus. Sed finibus aliquam neque sit amet sodales. </p>
+						</div><!-- education -->
+						
+						<!-- <div class="education margin-b-50">
+							<h4><b>GRADUATED VALEDICTERIAN</b></h4>
+							<h5 class="font-yellow"><b>PUBLIC COLLEGE</b></h5>
+							<h6 class="font-lite-black margin-t-10">GRADUATED IN MAY 2008(4 YEARS)</h6>
+							<p class="margin-tb-30">Duis non volutpat arcu, eu mollis tellus. Sed finibus aliquam neque sit amet sodales. 
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla maximus pellentes que velit, 
+							quis consequat nulla effi citur at. Maecenas sed massa tristique.Duis non volutpat arcu, 
+							eu mollis tellus. Sed finibus aliquam neque sit amet sodales. </p> --> --> --> -->
+						</div><!-- education -->
+					</div><!-- education-wrapper -->
+				</div><!-- col-sm-8 -->
+			</div><!-- row -->
+		</div><!-- container -->
+		
+	</section><!-- about-section -->
+	
 
-                            <div class="card" id="info" style="width: 18rem;">
-                                <div class="card-body">
-                                  <h5 class="card-title"></h5>
-                                  <h6 class="card-subtitle mb-2 text-muted">Connect With Me</h6>
-                                  <p class="card-text">
-                                <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>    (215) 880-7984 </li>
-                               
-
-                                <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/><path d="M0 0h24v24H0z" fill="none"/></svg> lfkurtz7@gmail.com </li>
-
-                                 </p>
-                                  <a href="https://github.com/lfkurtz7" class="card-link">Github</a>
-                                  <a href="resume lk 11-19.pdf" class="card-link">Resume</a>
-                                </div>
-                              </div>
-                    </div>
-                <div class="col">
-                    <img src="assets/images/pic-copy.jpg" class="img-fluid" alt="Leah Kurtz">
-
-                    </div>
+				
+			</div><!-- row-->
+		</div><!-- container-->
+    </section><!-- counter-section-->
+	
+	<footer>
+		<p class="copyright">
+			<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="ion-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+		</p>
 
 
-
-        </section>
-
-
-
-    </div>
-
-
-
-
-
-
-
-
-
-
+	</footer>
+	
+	
+	<!-- SCIPTS -->
+	
+	<script src="common-js/jquery-3.2.1.min.js"></script>
+	
+	<script src="common-js/tether.min.js"></script>
+	
+	<script src="common-js/bootstrap.js"></script>
+	
+	<script src="common-js/isotope.pkgd.min.js"></script>
+	
+	<script src="common-js/jquery.waypoints.min.js"></script>
+	
+	<script src="common-js/progressbar.min.js"></script>
+	
+	<script src="common-js/jquery.fluidbox.min.js"></script>
+	
+	<script src="common-js/scripts.js"></script>
+	
 </body>
-
 </html>
